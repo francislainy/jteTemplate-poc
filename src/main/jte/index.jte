@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${page.title()}</title>
     <meta name="description" content="${page.description()}">
-    <link rel="stylesheet" href="/src/main/resources/static/main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body class="bg-slate-50">
-<h1 class="text-2xl underline text-red-400">Hello ${name}!</h1>
+<h1 class="text-2xl underline text-green-400">Hello ${name}!</h1>
 </body>
 </html>
