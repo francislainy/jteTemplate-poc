@@ -11,8 +11,9 @@
     <title>${page.title()}</title>
     <meta name="description" content="${page.description()}">
     <link rel="stylesheet" href="/main.css">
+    <script src="http://localhost:35729/livereload.js"></script>
 </head>
 <body class="bg-slate-50">
-<h1 class="text-2xl underline text-green-400">Hello ${name}!</h1>
+<h1 class="text-2xl underline text-red-600">Hello ${name}!</h1>
 </body>
 </html>
